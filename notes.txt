@@ -1,0 +1,42 @@
+Maintenance
+
+There is a line that refers to 63342 or 63343. This is the port that the IDE uses to run the app. This keeps changing. If this changes, I have to change one line in
+code. The error message specifies what the new value should be.
+
+Status
+
+. GET and DELETE are more or less working. There is a lot of cleanup to do
+
+Next Steps
+
+. Post to Github
+. Clean up
+. DELETE AND PUT
+. Study the code and understand
+. Let the front end assign id or remove the need for id
+. Error handling
+
+Medium Priority Goals
+
+. Persistence -- DB?
+. Understand 63342/63343 changes.
+. Code review
+
+Low Priority Goals
+
+. Learn to run from the directory, i..e, outside the IDE
+. Learn to package the app
+. Gradle?
+. Jackson instead of Gson
+
+NOTES
+
+I am using only GSON (no JACKSON).
+
+REFERENCES
+
+http://sparkjava.com/
+https://sparktutorials.github.io/2016/05/01/cors.html
+https://www.mkyong.com/java/ has some good java stuff. This is wheer I got the GSON example.
+
+
